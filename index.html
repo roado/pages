@@ -274,6 +274,33 @@
       /* slightly darker yellow */
     }
 
+    /* Team Section Styles */
+    .team-card {
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      border-radius: 1rem;
+    }
+
+    .team-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+
+    .team-photo {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .section-divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--roado-border-light), transparent);
+      margin: 2rem 0;
+    }
+
     /* Hero Section Background */
     .hero-section {
       background-image:
@@ -318,6 +345,7 @@
         </a>
         <a href="#roadmap" class="nav-link text-slate-600 font-medium">Roadmap</a>
         <a href="#benefits" class="nav-link text-slate-600 font-medium">ROI & Impact</a>
+        <a href="#founders" class="nav-link text-slate-600 font-medium">Team</a>
         <a href="#pricing" class="nav-link text-slate-600 font-medium">Pricing</a>
       </div>
       <a href="https://calendly.com/roadobiz/30min"
@@ -1431,6 +1459,157 @@
             Contact us for a personalized quote tailored to your specific fleet size and
             operational complexity.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Sections -->
+    <!-- Founders Section -->
+    <section id="founders" class="py-12 md:py-16 section-fade-in">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-[var(--roado-blue)] mb-4">
+            Our Founders
+          </h2>
+          <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+            Visionary leaders from NITK Surathkal who founded RoaDo in 2017 with a mission to democratize logistics through technology
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <!-- Murugan Manoj Kumar J -->
+          <div class="team-card bg-white p-6 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="AboutUsRoaDo_files/Manoj.png" alt="Murugan Manoj Kumar J" class="team-photo" />
+            </div>
+            <h3 class="text-xl font-bold text-[var(--roado-blue)] mb-2">Murugan Manoj Kumar J</h3>
+            <p class="text-[var(--roado-yellow)] font-semibold mb-3">CEO & Co-Founder</p>
+            <p class="text-slate-600 leading-relaxed text-sm">
+              With industry experience at Glenmark and leading a star team from Vedanta, UB, etc., Murugan is set out on a journey to democratize logistics in India. Young and energetic, he brings his experience from NITK and Glenmark Pharma into this sector. Want to break the ice with him? Start talking football.
+            </p>
+          </div>
+
+          <!-- Narayan Chavan -->
+          <div class="team-card bg-white p-6 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="AboutUsRoaDo_files/Narayan.png" alt="Narayan Chavan" class="team-photo" />
+            </div>
+            <h3 class="text-xl font-bold text-[var(--roado-blue)] mb-2">Narayan Chavan</h3>
+            <p class="text-[var(--roado-yellow)] font-semibold mb-3">COO & Co-Founder</p>
+            <p class="text-slate-600 leading-relaxed text-sm">
+              A travel enthusiast who brings in his experience handling multimodal operations at Vedanta and his knowledge from NITK into this space. Having co-founded RoaDo along with Murugan and Suhas, they share a common dream: to bring digitization for the entire logistics industry in India. You will often find him cycling to office and always talking about coffee.
+            </p>
+          </div>
+
+          <!-- Suhas V -->
+          <div class="team-card bg-white p-6 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="AboutUsRoaDo_files/Suhas.png" alt="Suhas V" class="team-photo" />
+            </div>
+            <h3 class="text-xl font-bold text-[var(--roado-blue)] mb-2">Suhas V</h3>
+            <p class="text-[var(--roado-yellow)] font-semibold mb-3">CTO & Co-Founder</p>
+            <p class="text-slate-600 leading-relaxed text-sm">
+              An exceptional software developer, also from NITK, who brings his experience from Quikr and other companies to build this amazing e-commerce-like operating system for logistics in India. He, along with the entire development team, has these late-night feature releases which is a surprise for the whole team and encourages every single member in the company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Advisors Section -->
+    <section id="advisors" class="py-12 md:py-16 section-fade-in bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-[var(--roado-blue)] mb-4">
+            Our Advisors
+          </h2>
+          <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+            We're backed by industry leaders and experienced professionals who guide us towards excellence
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Ankit Kedia -->
+          <div class="team-card bg-white p-4 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="RoaDo _ Logistics Simplified_files/AnkitKedia.png" alt="Ankit Kedia" class="w-24 h-24 object-cover rounded-full border-2 border-[var(--roado-yellow)]" />
+            </div>
+            <h3 class="text-lg font-bold text-[var(--roado-blue)] mb-1">Ankit Kedia</h3>
+            <p class="text-[var(--roado-yellow)] font-medium mb-2 text-sm">Investor & Advisor</p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Founder of Capital-A, a micro VC fund, and former promoter director at Manjushree Technopack Ltd. South Asia's largest manufacturer of rigid plastic packaging solutions. Also Managing Partner in Manjushree Ventures and Founder of Caremont.
+            </p>
+          </div>
+
+          <!-- Ponnapa PG -->
+          <div class="team-card bg-white p-4 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="RoaDo _ Logistics Simplified_files/PonnapaPg.png" alt="Ponnapa PG" class="w-24 h-24 object-cover rounded-full border-2 border-[var(--roado-yellow)]" />
+            </div>
+            <h3 class="text-lg font-bold text-[var(--roado-blue)] mb-1">Ponnapa PG</h3>
+            <p class="text-[var(--roado-yellow)] font-medium mb-2 text-sm">Strategic Advisor</p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Having headed multiple functions in several domains, he has a strong understanding of the Urban & Rural Markets of India. With almost 40 years of industry experience, his specialties include General Management, Business Strategy, Start-ups, Sales, and Marketing.
+            </p>
+          </div>
+
+          <!-- Atul Sethi -->
+          <div class="team-card bg-white p-4 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="RoaDo _ Logistics Simplified_files/AtulSethi.png" alt="Atul Sethi" class="w-24 h-24 object-cover rounded-full border-2 border-[var(--roado-yellow)]" />
+            </div>
+            <h3 class="text-lg font-bold text-[var(--roado-blue)] mb-1">Atul Sethi</h3>
+            <p class="text-[var(--roado-yellow)] font-medium mb-2 text-sm">Business Advisor</p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Experienced business leader who has generated transformational and sustained results across diverse industries. Board member with CXO level experience across consumer goods, private equity, academia, and plastic packaging. Strong people leadership and coaching skills.
+            </p>
+          </div>
+
+          <!-- Prof. R. Srinivasan -->
+          <div class="team-card bg-white p-4 text-center">
+            <div class="flex justify-center mb-4">
+              <img src="RoaDo _ Logistics Simplified_files/RSrinivasan.png" alt="Prof. R. Srinivasan" class="w-24 h-24 object-cover rounded-full border-2 border-[var(--roado-yellow)]" />
+            </div>
+            <h3 class="text-lg font-bold text-[var(--roado-blue)] mb-1">Prof. R. Srinivasan</h3>
+            <p class="text-[var(--roado-yellow)] font-medium mb-2 text-sm">Academic Advisor</p>
+            <p class="text-slate-600 text-xs leading-relaxed">
+              Chairperson of MBA program at IIMB. His areas of research include strategies of multisided platform organizations, strategy processes in rapid growth organizations, and competitive, corporate & international strategies. Author of multiple cases on platform business models.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Customer Advisory Committee (CAC) Section -->
+    <section id="cac" class="py-12 md:py-16 section-fade-in">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-[var(--roado-blue)] mb-4">
+            Customer Advisory Committee (CAC)
+          </h2>
+          <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+            Our valued clients and early adopters who have been instrumental in shaping RoaDo's solutions for the North American logistics industry
+          </p>
+        </div>
+
+        <div class="flex justify-center">
+          <div class="team-card bg-white p-6 text-center max-w-md">
+            <div class="flex justify-center mb-4">
+              <img src="bob.jpeg" alt="Bob - SPS Freight Logistics Inc." class="w-40 h-40 object-cover rounded-full border-3 border-[var(--roado-yellow)]" />
+            </div>
+            <h3 class="text-xl font-bold text-[var(--roado-blue)] mb-2">Bob Randhawa</h3>
+            <p class="text-[var(--roado-yellow)] font-semibold mb-2">Owner, SPS Freight Logistics Inc.</p>
+            <p class="text-slate-600 leading-relaxed mb-3 text-sm">
+              Based in Ontario, Canada
+            </p>
+            <p class="text-slate-600 leading-relaxed text-sm">
+              Bob has been an incredible client and early adopter who's been instrumental in expediting RoaDo's ability to solve for the North American logistics industry. His invaluable feedback and real-world insights have helped us understand the unique challenges faced by carriers in the Canadian market, enabling us to build solutions that truly address the needs of North American freight operations.
+            </p>
+          </div>
         </div>
       </div>
     </section>
